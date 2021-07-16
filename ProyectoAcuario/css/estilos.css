@@ -1,0 +1,147 @@
+header
+{
+    display: block;
+    position: relative;
+}
+
+nav,section, aside
+{
+    display:inline-block;
+    position: relative;
+    
+}
+
+
+body {
+    background-color: white;
+  }
+  header {
+    background-color: black;
+    color: white;
+    margin: 1px;
+    padding: 8px;
+  }
+  h1  { 
+      color: whitesmoke;
+      text-align: center;
+    }
+  h2 {
+    color: black;
+  }
+  button {
+    background-color: white;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+  }
+
+  a {
+      font-style: italic;
+      align-self: center;
+  }
+  section {
+      align-self: center;
+  }
+
+  .box {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.text {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(255,0,0,0.3);
+}
+
+.box1 {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.3);
+    transform: rotate(20deg);
+    transition: width 0.3s;
+    transition-delay: 0.3s;
+}
+
+.box1:hover {
+    transform: scale(1.05, 1.05);
+    width: 150px;
+    background-color: rgba(0,0,0,0.1)
+    ;
+}
+
+.rojo {
+    background-color: white;
+    box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.3);
+    margin: 10px 15px;
+    width: 200px;
+    height: 30px;
+    border-left: solid 2px red;
+    border-top-left-radius: 3px;
+    text-align: center;
+}
+
+.rojo:hover {
+    transform:scale(1.15);
+}
+
+.verde {
+    background-color: white;
+    box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.3);
+    margin: 10px 15px;
+    width: 200px;
+    height: 30px;
+    border-left: solid 2px green;
+    border-top-left-radius: 3px;
+    text-align: center;
+}
+
+.azul {
+    background-color: white;
+    box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.3);
+    margin: 10px 15px;
+    width: 200px;
+    height: 30px;
+    border-left: solid 2px blue;
+   
+    text-align: center;
+}
+
+.verde:hover {
+    box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.4);
+}
+
+
+
+.nav {
+    background-color: white;
+    box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.3);
+    margin: 10px 15px;
+    width: 200px;
+    height: 130px;
+    border-left: solid 2px blue;
+    text-align: center;
+}
+
+.nav:hover {
+    background-color: blue;
+}
+
+.seccion {
+    
+    background-color: white;
+    box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.3);
+    margin: 10px 15px;
+    width: 400px;
+    height: 330px;
+    border-left: solid 2px blue;
+    text-align: center;
+}
+
+.seccion:hover {
+    background-color: rgb(217, 255, 0);
+}
