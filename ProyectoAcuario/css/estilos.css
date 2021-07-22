@@ -1,48 +1,110 @@
 body {
-    background-color: rgb(76, 210, 228);   
+    background-color: rgb(0, 176, 230);   
   }
 
 
-header
+.encabezado
 {
     background-color: rgb(12, 77, 218);
-    display: block;
+    display: flex;
     position: relative;
     margin: auto;
     border: 1px solid rgb(182, 172, 172);
     border-radius: 10px;
 }
 
+.logoImpo {
+  width: 15%;   
+    float: left;
+    max-height: fit-content;
+}
+
+
+.logoEmpresa{
+  width:15%;  
+  float: right;
+    
+}
+
+
 .top  { 
-    align-self: start;
-       color: rgb(252, 249, 249);
+    width: 70%;
+    align-self: center;
+     color: rgb(252, 249, 249);
     text-align: center;
     margin-top: 8px;
     
      }
 
-.columnas {
-  display: -webkit-flex;
-    display: flex;
-    width: auto;
-    height: auto;
-    background-color: rgb(34, 145, 219);
+.barraNavegacion{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(12, 77, 218);
+    border: 1px solid rgb(182, 172, 172);
+    border-radius: 10px;
 }
 
-.colum {
-  background-color: rgb(63, 94, 151);
-    width: auto;
-    height: auto;
-    margin: 5px;
+.enlaceBarraIzq {
+  float: left;
 }
 
-.logoImpo {
-  width: 15%;   
-    float: left;
+a {
+  display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
+a:hover {
+  background-color: #4CAF50;
+    color: black;
+}
 
-.logoEmpresa{
-  width:15%;
-    float: right;
+.enlaceBarraDer {
+  float:right;
+}
+
+.navegacionIzq {
+  width: 20%;
+  float: left;
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(12, 77, 218);
+    border: 1px solid rgb(182, 172, 172);
+    border-radius: 10px;
+}
+
+.centro {
+  height: 400px;
+  width: 60%;
+  background-color: rgb(12, 77, 218);
+    border: 1px solid rgb(182, 172, 172);
+    border-radius: 10px;
+}
+
+.aside{
+  float: right;
+  width: 20%;
+  background-color: rgb(12, 77, 218);
+    border: 1px solid rgb(182, 172, 172);
+    border-radius: 10px;
+}
+
+.seccion {
+  display:flex;
+    }
+
+footer {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(12, 77, 218);
+    border: 1px solid rgb(182, 172, 172);
+    border-radius: 10px;
 }
