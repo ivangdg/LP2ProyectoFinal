@@ -145,8 +145,7 @@ p{
     }
 
 footer {
-  width: 100%;
-  list-style-type: none;
+  width: 100%; 
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -159,11 +158,19 @@ iframe{
   width: 100%;
   margin:3px;
   padding: 2px, 2px, 2px, 2px;
+  
 }
 
 form, label, input {
   width: 100%;  
   margin: 3px;
  
+}
+
+textarea {
+  overflow:hidden;
+  width: 100%;
+  margin: 3px;
+  padding: 2px, 2px, 2px, 2px;
 }
 
