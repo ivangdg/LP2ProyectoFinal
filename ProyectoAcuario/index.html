@@ -10,83 +10,89 @@
 </head>
 
 <body>
-    <header class="encabezado" >
-        <img src="img/logo_impo_web.png" alt="Logo Impo" class="logoImpo">
-        <h1 class="top" >Nombre de la Empresa "DORI"</h1>
-        <img src="img/logoEmpresa.jpg" alt="Logo Empresa" class="logoEmpresa">
-               
-        
+    <header class="encabezado">
+        <img src="img/CabeceraIzquierda.png" alt="Logo Impo" class="logoIzquierda">
+        <img src="img/CabeceraCentro.png" alt="Logo centro" class="logoCentro" >
+        <a href="compraBoletos.html" class="logoDerecha">Comprar Boletos</a>
+
+
     </header>
 
-    <nav >
+    <nav>
         <ul class="barraNavegacion">
-            <li class="enlaceBarraIzq"><a class="enlaces" href="https://www.google.com/">Google</a></li>
-            <li class="enlaceBarraIzq"><a class="enlaces"
-                href="https://www.impo.org.mx/">IMPO</a> </li> 
-                <li class="enlaceBarraDer"> <a class="enlaces" href="nosotros.html">Nosotros</a></li>
+            <li class="enlaceBarraIzq"><a  href="inicio.html/">INICIO</a></li>
+            <li class="enlaceBarraIzq"><a  href="nosotros.html">NOSOTROS</a> </li>
+            <li class="enlaceBarraIzq"><a href="servicios.html">SERVICIOS</a></li>
+            <li class="enlaceBarraIzq"><a href="contacto.html">GALERIA</a></li>
+            
+            <li class="enlaceBarraDer"> <a  href="compra.html">CONTACTO</a></li>
         </ul>
-    </nav>    
+    </nav>
 
 
 
 
-    
-    
+
+
     <section class="seccion">
 
         <nav class="navegacionIzq">
-            <a href="contacto.html">Formulario de Registro</a> <br>
-            <a href="blog.html">Divulgación cintifica</a> <br>
-            <a href="login.html">Ingresa/Registrate</a><br>
-            <a href="noticias.html">Noticias</a>
-            <br>
-            <a href="imagenes.html">Imagenes</a>
+            <a href="artico.html"><img src="img/artico.png" alt="ArticoLaExpedicion" ></a>
+            <a href="exhibiciones.html" ><img src="img/exhibiciones.png" alt="Nuestras Exhibiciones"></a> <br>
+            <a href="oceanario.html"><img src="img/oceanario.png" alt="Oceanario"></a> <br>
         </nav>
-    
+
 
         <section class="centro">
-            <header>
-                <p>Este es el encabezado del contenido</p>
-            </header>
             <article>
-                <header>
-                    <p>Este es el inicio del contenido de la pagina</p>
-                </header>
-                <p>Aqui va contenido de la pagina</p>
-                <p>Este es mas contenido de la página</p>
-                <aside>imagen incrustada <img src="" alt="imagen"></aside>
-                <p>Continuación del contenido</p>
+                
+                <aside class="imgIzquierda"><img src="img/acuarioInteractivo.png" alt="acuarioInteractivo"></aside>
+                <p>En esta gran experiencia podrás conocer a más de 14,000 ejemplares de 350 especies como los son tiburones, pingüinos, rayas, medusas, ajolotes, diversos reptiles y más, en un recorrido a través de dos acuarios y más de 50 exhibiciones.
+                    </p>
+
+                    <p>
+                Además conoce de cerca nuestro Centro de Conservación y Laboratorio de Reproducción, donde realizamos grandes esfuerzos para la preservación de la vida marina. Nuestra misión es generar pasión, interés y conciencia hacia las maravillas del mundo marino, a través de nuestros espacios de convivencia familiar que inspire a nuestros visitantes tener estilos de vida amigables con el medio ambiente. Para ello trabajamos bajo el concepto de “edutaiment”, el cual suma la educación más el entretenimiento.</p>
+                
                 <footer>
-                    Pie de pagina del contenido central</footer>
+                    <a href="compra.html"><img src="img/compraEnLinea.png" alt="Compra en Linea"></a>
+                </footer>
             </article>
         </section>
 
 
-    
-    
-    <aside class="aside">
-        <p>Aquí van los enlaces a otras paginas</p>
-        <img src="" alt="una imagen">
-        <img src="" alt="otra imagen">
-    </aside>
 
 
-   
-        
+        <aside class="aside">
+            <p class="centrado">¿Como llegar?</p>
+            <p >ACUARIO INBURSA
+                Blvd. Miguel de Cervantes Saavedra 386,
+                Amp. Granada, Del. Miguel Hidalgo, CDMX
+                CP 11500</p>
+            
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.3632084247806!2d-99.20730258469395!3d19.439901086880187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2021a6a91f933%3A0x3c77eecdfc11df9a!2sAcuario%20Inbursa!5e0!3m2!1ses-419!2smx!4v1627005103826!5m2!1ses-419!2smx"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
+        <form action="registroExitoso.html">
+            <label class="enlaceBarraIzq" for="">Contacto</label>
+            <input type="text" value="Nombre" id="nombre">
+            <input type="email" value="Email" id="email">
+            <input type="text" value="Mensaje" id="mensaje">
+            <input type="button" value="Enviar" id="Enviar">
+            
+        </form>
 
+        </aside>
 
     </section>
 
-   
+
 
     <footer>
-        <p class="enlaces">
-            Este es el píe de pagina de tooooda la pagina
+        
+        <p>
+        <img src="img/pieDePagina.png" alt="">
         </p>
-        <p class="enlaces">
-            Dirección telefono y email
-        </p>
+       
     </footer>
 
 </body>

@@ -13,17 +13,32 @@ body {
     border-radius: 10px;
 }
 
-.logoImpo {
+.logoIzquierda {
   width: 15%;   
     float: left;
     max-height: fit-content;
+    border-radius: 10px;
 }
 
+.logoCentro {
+  width: 70%;   
+    float: left;
+    max-height: fit-content;
+    border-radius: 10px;
+}
 
-.logoEmpresa{
+.logoDerecha{
   width:15%;  
   float: right;
-    
+  border-radius: 10px;
+  color: rgb(19, 57, 226);
+    background-color: rgb(240, 236, 11);
+    border:solid 1px rgb(1, 127, 245);
+    text-transform: uppercase;
+    text-size-adjust: 50%;
+    letter-spacing: 2px;
+    max-height: fit-content;
+    padding: 5% ;
 }
 
 
@@ -48,23 +63,30 @@ body {
 
 .enlaceBarraIzq {
   float: left;
-}
+  margin: 3px;
+  background-color: rgb(229, 233, 236);
+  border-radius: 5px;
+
+  }
+
 
 a {
-  display:block;
-    color: white;
+  display: flex;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 16px;
     text-decoration: none;
 }
 
 a:hover {
-  background-color: #4CAF50;
-    color: black;
+  background-color: #e7880a;
+    color: rgb(228, 225, 222);
 }
 
 .enlaceBarraDer {
   float:right;
+  margin: 3px;
+  background-color: rgb(229, 233, 236);
+  border-radius: 5px;
 }
 
 .navegacionIzq {
@@ -79,12 +101,32 @@ a:hover {
     border-radius: 10px;
 }
 
+img{
+  width: 100%;
+}
+
+.imgIzquierda{
+float: right;
+width: 50%;
+padding: 4px;
+}
 .centro {
-  height: 400px;
   width: 60%;
   background-color: rgb(12, 77, 218);
-    border: 1px solid rgb(182, 172, 172);
-    border-radius: 10px;
+  border: 1px solid rgb(182, 172, 172);
+  border-radius: 10px;  
+}
+
+p{
+  color: aliceblue;
+  padding: 4px;
+  margin: 4px, 4px;
+  text-align: justify;
+  width: 100%;
+}
+
+.centrado{
+  text-align: center;
 }
 
 .aside{
@@ -93,6 +135,9 @@ a:hover {
   background-color: rgb(12, 77, 218);
     border: 1px solid rgb(182, 172, 172);
     border-radius: 10px;
+  text-align: center;  
+  padding: 1.5%;
+  
 }
 
 .seccion {
@@ -100,6 +145,7 @@ a:hover {
     }
 
 footer {
+  width: 100%;
   list-style-type: none;
     margin: 0;
     padding: 0;
@@ -108,3 +154,16 @@ footer {
     border: 1px solid rgb(182, 172, 172);
     border-radius: 10px;
 }
+
+iframe{
+  width: 100%;
+  margin:3px;
+  padding: 2px, 2px, 2px, 2px;
+}
+
+form, label, input {
+  width: 100%;  
+  margin: 3px;
+ 
+}
+
