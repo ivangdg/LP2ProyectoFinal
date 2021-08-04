@@ -1,0 +1,161 @@
+/*-- social-icons --*/
+.social-icons {
+    margin-right: 40px;
+    width: 800px;
+    height: 40px;
+}
+.social-icons ul li {
+    display: inline-block;
+}
+.social-icons ul li a.fa.icon{
+    font-size: 2.5em;
+    color: #fff;
+    line-height: 1.3em;
+    text-align: center;
+	border:2px solid #3b5998;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%; 
+	border-radius: 50%;
+	background: #3b5998;
+}  
+.social-icons ul li a.fa.icon:hover {
+    color: #3b5998;
+    background: transparent;
+}
+.social-icons ul li a.fa.fa-twitter{
+    background: #4099ff; 
+	border-color:#4099ff;
+}
+.social-icons ul li a.fa.fa-twitter:hover {
+    color: #4099ff; 
+	background: transparent;
+}
+.social-icons ul li a.fa.fa-google-plus{
+    background: #d34836;
+	border-color:#d34836;
+}
+.social-icons ul li a.fa.fa-google-plus:hover {
+    color: #d34836;
+	background: transparent;
+}
+.social-icons ul li a.fa.fa-dribbble{
+    background: #ec4a89;
+	border-color:#ec4a89;
+}
+.social-icons ul li a.fa.fa-dribbble:hover {
+    color: #ec4a89;
+	background: transparent;
+}
+.social-icons ul li a.fa.fa-rss{
+    background: #ee802f;
+	border-color:#ee802f;
+} 
+.social-icons ul li a.fa.fa-rss:hover {
+    color: #ee802f;
+	background: transparent;
+} 
+.icon {
+    vertical-align: top;
+    overflow: hidden;
+    margin: 4px;
+    width: 50px;
+    height: 50px;
+	position: relative;
+}
+ 
+.social-icons  ul.apps {
+    margin-top: 1em;
+}
+.social-icons ul.apps li h4 {
+    font-size: 1em;
+	margin: 0;
+}
+.social-icons ul.apps li a.fa {
+    color: #999;
+    font-size: 1.4em;
+    margin-left: 0.6em;
+}
+.social-icons ul.apps li a.fa:hover {
+    color: #0280e1;
+}
+.social-icons ul li a.fa.fa-youtube {
+    background: #ff0000;
+	border-color: #ff0000;
+}
+.social-icons ul li a.fa.fa-youtube:hover {
+    background: #fff;
+	border-color: #ff0000;
+    color: #ff0000;
+}
+.social-icons ul li a.fa.fa-instagram {
+    background: #a041ea;
+	border-color: #a041ea;
+}
+.social-icons ul li a.fa.fa-instagram:hover {
+    background: #fff;
+	border-color: #a041ea;
+    color: #a041ea;
+}
+.social-icons ul li a.fa.fa-whatsapp {
+    background: #21ba03;
+	border-color: #21ba03;
+}
+.social-icons ul li a.fa.fa-whatsapp:hover {
+    background: #fff;
+	border-color: #21ba03;
+    color: #21ba03;
+}
+.whatsapp-text {
+    width: 30px;
+    height: 30px;
+    /*border: solid;*/
+    /*border-color: #3b5998;*/
+    position: relative;
+    display: inline-block;
+    top: -26px;
+    right: -125px;
+}
+.whatsapp-text .tooltiptextOne {
+    visibility: hidden;
+    letter-spacing: 0.2em;
+    width: 127px;
+    background-color: black;
+    color: #fff;    
+    border-radius: 8px;
+    padding: 3px 8px;
+    position: absolute;
+    z-index: 1;
+    top: -9px;
+    left: 120%;
+}
+.whatsapp-text .tooltiptextTwo {
+    visibility: hidden;
+    letter-spacing: 0.2em;
+    width: 127px;
+    background-color: black;
+    color: #fff;    
+    border-radius: 8px;
+    padding: 3px 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: -9px;
+    left: 120%;
+}
+.whatsapp-text:hover .tooltiptextOne {
+    visibility: visible;
+}
+.whatsapp-text:hover .tooltiptextTwo {
+    visibility: visible;
+}
+.social-icons ul li a.fa.fa-linkedin {
+    background: #3b98e6;
+	border-color: #3b98e6;
+}
+.social-icons ul li a.fa.fa-linkedin:hover {
+    background: #fff;
+	border-color: #3b98e6;
+    color: #3b98e6;
+} 
+/*-- //social-icons --*/ 
