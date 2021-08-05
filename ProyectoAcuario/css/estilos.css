@@ -199,19 +199,22 @@ footer {
 
 footer a {
   color: #e7880a;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
- footer a:visited{
-   color: azure;
- }
-
+.icon {
+  width: 50px;
+  height:50px;
+  object-fit: cover;
+} 
 
  .galery-container {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    
    padding: 20px;
-   grid-gap: 5px;
+   grid-gap: 2px;
    max-width: fit-content;
  }
 
@@ -227,6 +230,7 @@ footer a {
  }
 
  .gallery__title {
+   font-size: 70%;
   position: absolute;
   bottom: 0;
   color: bisque;
