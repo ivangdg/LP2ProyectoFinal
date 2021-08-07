@@ -1,0 +1,37 @@
+#content{
+    float: left;
+    width: calc(80% -80px);
+    min-height: 500px;
+    background-color: green;
+    padding: 40px;
+}
+.artitle{
+    color: white;
+    margin-top:15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+
+}
+.artitle:first-child{
+    padding-top:10px ;
+border-top: 1px solid  #eee;
+}
+.artitle h2{
+    font-size: 25px;
+}
+aside{
+    float:left;
+    width: calc( 20%-20px);
+    background: orange;
+    min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+}  
+{       footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
