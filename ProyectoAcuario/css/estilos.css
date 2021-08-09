@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(0, 176, 230);   
   }
@@ -9,9 +10,7 @@ body {
     display: flex;
     position: relative;
     margin: auto;
-    border: 1px solid rgb(182, 172, 172);
-    border-radius: 10px;
-}
+ }
 
 .logoIzquierda {
   width: 15%;   
@@ -63,8 +62,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: rgb(12, 77, 218);
-    border: 1px solid rgb(182, 172, 172);
-    border-radius: 10px;
+    
 }
 
 .enlaceBarraIzq {
@@ -103,24 +101,29 @@ a:hover {
     padding: 0;
     
     background-color: rgb(12, 77, 218);
-    border: 1px solid rgb(182, 172, 172);
-    border-radius: 10px;
+    
 }
 
 img{
   width: 100%;
+  border-radius: 4px;
 }
 
 .imgIzquierda{
 float: right;
-width: 50%;
-padding: 4px;
+width: 100%;
+padding: 14px;
 }
+
 .centro {
   width: 60%;
   background-color: rgb(12, 77, 218);
-  border: 1px solid rgb(182, 172, 172);
-  border-radius: 10px;  
+  
+}
+.centro img, h2, h3, form {
+ width: 100%;
+ color: aliceblue;
+ text-align: center;
 }
 
 p{
@@ -133,17 +136,21 @@ p{
 
 .centrado{
   text-align: center;
+  width: 100%;
 }
 
 .aside{
-  float: right;
+  
   width: 20%;
   background-color: rgb(12, 77, 218);
-    border: 1px solid rgb(182, 172, 172);
-    border-radius: 10px;
-  text-align: center;  
   padding: 1.5%;
   
+}
+
+aside p{
+font-size: 18px;
+text-align: center;
+
 }
 
 .seccion {
@@ -179,8 +186,7 @@ footer {
     padding: 0;
     
     background-color: rgb(12, 77, 218);
-    border: 1px solid rgb(182, 172, 172);
-    border-radius: 10px;
+    
 }
  footer ul{
    display: flex;
@@ -229,6 +235,11 @@ footer a {
    
  }
 
+ .gallery_img:hover{
+  transform: scale(2.0);
+  position: relative;
+  z-index: 100;
+ }
  .gallery__title {
    font-size: 70%;
   position: absolute;
