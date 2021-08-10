@@ -1,0 +1,290 @@
+.head {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: #DB5B0F;
+}
+
+.boton_indep {
+	font-family: Helvetica;
+	color: #FFD5BB;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.botonsec {
+	font-size: 16px;
+	font-family: Helvetica;
+	color: #000000;
+}
+
+.body {
+	font-family: Helvetica;
+	color: #000000;
+	font-size: 12px;
+}
+
+.tbody {
+	font-family: Helvetica;
+	color: #F96302;
+	font-size: 16px;
+    font-weight: bold;
+}
+.UserName {
+	font-family: Helvetica;
+	color: #3F33FF;
+	font-size: 16px;
+	text-transform: uppercase;
+    line-height:30px;
+    font-weight: bold;
+}
+
+.categorias {
+	FONT-FAMILY: Helvetica;
+/*	COLOR: #3e3d3d; */
+	COLOR: #FF8C00;
+	FONT-SIZE: 12pt;
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 5px; 
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px;
+	WIDTH: 165px; 
+}
+
+a.LnkCategoria:link {
+	text-decoration: none;
+	color: blue;
+	width: auto;
+}
+a.LnkCategoria:visited {
+	text-decoration: none;
+	color: blue;
+	width: auto;
+}
+a.LnkCategoria:active {
+	text-decoration: none;
+/*	color: DarkOrange; */
+	color: white;
+	width: auto;
+}
+a.LnkCategoria:hover {
+	text-decoration: underline;
+/*	color: DarkOrange; */
+	color: white;
+	width: auto;
+}
+
+.tproduct {
+	font-family: Helvetica;
+	color: #ed610d;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.price {
+	font-family: Helvetica;
+	color: #3e3d3d;
+	font-size: 13px;
+	font-weight: bold;
+	float: right;
+	text-align: right;
+}
+.productbody {
+	font-family: Helvetica, Helvetica;
+	color: #F96302;
+	font-size: 13px;
+	font-weight: bold;
+    margin-left: 0px;
+}
+
+.legales {
+	font-family: Helvetica;
+	color: #ffd6bd;
+	font-size: 11px;
+}
+.buscador {
+	font-size: 13px;
+	font-family: Helvetica;
+	color: #3e3d3d;
+}
+.TablaPagina {
+	PADDING-RIGHT: 2px; 
+	PADDING-LEFT: 2px; 
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px;
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 13px; 
+	FONT-FAMILY: Helvetica;
+	MARGIN: 2px 5px; 
+	WIDTH: 0px;
+/*	COLOR: DarkOrange; */ 
+	COLOR: White; 
+}
+a.LnkTablaPagina:link 
+{
+	font-size: 13px;
+	text-decoration: none;
+	color: blue;
+	width: auto;
+}
+a.LnkTablaPagina:visited 
+{
+	font-size: 13px;
+	text-decoration: none;
+	color: blue;
+	width: auto;
+}
+a.LnkTablaPagina:active 
+{
+	font-size: 13px;
+	text-decoration: blink;
+	color: DarkOrange;
+	width: auto;
+}
+a.LnkTablaPagina:hover 
+{
+	font-size: 13px;
+	text-decoration: underline;
+	color: DarkOrange;
+	width: auto;
+}
+
+.detailsHEAD {
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: #DB5B0F;
+}
+.detailsMODEL {
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: #3e3d3d;
+	margin: 0px 10px;
+}
+.detailsDESCRIPTION {
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: #3e3d3d;
+	margin: 0px 20px;
+}
+.detailsPRICE {
+	font-family: Helvetica;
+	color: #3e3d3d;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0px 35px;
+}
+
+.tabla_totales1 {
+	FONT-FAMILY: Helvetica;
+	COLOR: #C04000;
+	FONT-SIZE: 13pt;
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 5px; 
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+	background-color: #cccccc;
+}
+.tabla_totales2 {
+	FONT-FAMILY: Helvetica;
+	COLOR: #3e3d3d;
+	FONT-SIZE: 13pt;
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 5px; 
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+}
+a.lnkPedidoGenerado:link
+{
+	text-decoration: none;
+	color: #C04000;
+	width: auto;
+}
+a.lnkPedidoGenerado:visited {
+	text-decoration: none;
+	color: #C04000;
+	width: auto;
+}
+a.lnkPedidoGenerado:active {
+	text-decoration: blink;
+	color: #FF8000;
+	width: auto;
+}
+a.lnkPedidoGenerado:hover {
+	text-decoration: underline;
+	color: #FF8000;
+	width: auto;
+}
+
+.top_message {
+	FONT-FAMILY: Helvetica;
+	COLOR: DarkRed;
+	FONT-SIZE: 7pt;
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 5px; 
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px;
+}
+
+a.MenuAlterno:link {
+	text-decoration: none;
+	color: DarkRed;
+	width: auto;
+}
+a.MenuAlterno:visited {
+	text-decoration: none;
+	color: DarkRed;
+	width: auto;
+}
+a.MenuAlterno:active {
+	text-decoration: none;
+	color: Crimson;
+	width: auto;
+}
+a.MenuAlterno:hover {
+	text-decoration: underline;
+	color: Crimson;
+	width: auto;
+}
+
+/*-------------------------------------*/
+.taStyle_001 {
+    background-color: transparent;
+    border: 1px solid #000000;
+    scrollbar-arrow-color: #000066;
+    scrollbar-base-color: #000033;
+    scrollbar-dark-shadow-color: #336699;
+    scrollbar-track-color: #666633;
+    scrollbar-face-color: #cc9933;
+    scrollbar-shadow-color: #DDDDDD;
+    scrollbar-highlight-color: #CCCCCC;
+}
+
+/*Degrado Con imagen PNG que contiene Filtro Alfa*/
+.degradado {
+    width: 60px; height: 80px;
+    background-position:center;
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='degradado.png');
+}
+/* IE ignores styles with [attributes], so it will skip the following. */
+.degradado[class] {
+    background-image:url(degradado.png);
+    }
+/*-------------------------------------*/
+
+.lblSinExistencias {
+    font-family: Helvetica, Helvetica;
+	color: #0005ff;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#lblObservacion {
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	color: #ff4e00;
+}
