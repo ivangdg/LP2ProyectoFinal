@@ -130,8 +130,8 @@ section #buscar{
 
 #caja {
     display: flex;
-    flex-flow: column wrap;
-    text-align-last: center;
+    flex-flow: nowrap;
+    text-align-last: normal;
     margin: 0px;
     flex-direction: column;
     flex-wrap: nowrap;
