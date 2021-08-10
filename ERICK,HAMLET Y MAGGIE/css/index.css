@@ -125,6 +125,13 @@ section #buscar{
     display: flex;
     flex-flow: column wrap;
     text-align-last: center;
+    margin: 20px;
+}
+
+#caja {
+    display: flex;
+    flex-flow: column wrap;
+    text-align-last: center;
     margin: 0px;
     flex-direction: column;
     flex-wrap: nowrap;
