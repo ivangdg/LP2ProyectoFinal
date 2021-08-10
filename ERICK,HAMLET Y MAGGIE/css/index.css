@@ -121,6 +121,22 @@ section #buscar{
     background: rosybrown;
 }
 
+#caja {
+    display: flex;
+    flex-flow: column wrap;
+    text-align-last: center;
+    margin: 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#buscar ul li ul li a{
+    float: left;
+    width: 67px;
+    height: 53px;
+    border-radius: 100%;
+}
+
 section #imagenes{
     position: absolute;
     top: 0px;
