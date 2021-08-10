@@ -270,6 +270,37 @@ footer{
     font-size: 15px;
 }
 
+footer {
+   
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(12, 77, 218);
+    
+}
+ footer ul{
+   display: flex;
+   margin: auto;
+   padding: auto;
+  list-style-type: none;
+  
+ }
+
+ footer li {
+   
+   padding: 5px;
+   
+    
+ }
+
+footer a {
+  color: #e7880a;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
 /*---- Fin Footer---*/
 /*------------------------*/
 /*------------------------*/
