@@ -255,8 +255,8 @@ form .icon:after, form .submit:after  {
     margin: 5px;
 }
 
-#bottom ul li li a{
-    color: #e7880a;
+#bottom ul li a{
+    color: #f33be4;
     object-fit: cover;
     border-radius: 20px;
 }
