@@ -254,6 +254,14 @@ form .icon:after, form .submit:after  {
     background: white;
     margin: 5px;
 }
+
+#bottom ul li li a{
+    color: #e7880a;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
 /*---- Fin botoom---*/
 /*------------------------*/
 /*------------------------*/
