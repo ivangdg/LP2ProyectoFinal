@@ -1,0 +1,27 @@
+body {
+    background: url(../img/img/fondo_marca_de_agua.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.btn1,.btn2{
+    color: blue
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn3, .btn4{
+    color: rgb(75, 20, 146)
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn5, .btn6{
+    color: rgb(20, 86, 139)
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
