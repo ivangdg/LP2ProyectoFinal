@@ -151,6 +151,7 @@ section #imagenes{
     width: 526px;
     height: 386px;
     background: rosybrown;
+    color: salmon;
 }
 
 
@@ -233,18 +234,18 @@ form .icon:after, form .submit:after  {
 #bottom{
     position: relative;
     margin: auto;
-    width: 1006px;
-    height: 900px;
+    width: 1000px;
+    height: 190px;
 }
 
 #bottom ul li{
     float: left;
     width: 332px;
-    height: 890px;
+    height: 198px;
 }
 
 #bottom ul li h1{
-    margin: 368px 18px;
+    margin: 13px 18px;
     color: #edd8c9;
     font-size: 18px;
     font-weight: 100;
