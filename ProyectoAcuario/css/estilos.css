@@ -248,3 +248,24 @@ footer a {
   background: #333;
   width: 100%;
  }
+<<<<<<< Updated upstream
+=======
+ aside{ 
+  float:left;
+  width: calc(20%-20px);
+  background: orange;
+  min-height: 500px;
+  padding-left:10px ;
+  padding-right: 10px;
+  padding-top: 20px;
+
+}
+>>>>>>> Stashed changes
+
+
+.h2{
+  font-size: 72px; 
+  background:  -webkit-linear-gradient(#ff0000, #7686fd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
