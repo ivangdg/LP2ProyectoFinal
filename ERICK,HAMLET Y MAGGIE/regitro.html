@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAPELERIAROSSETTE</title>
-    <link href="css/index.css" type="text/css" rel="stylesheet" media="">
+    <link href="css/registro.css" type="text/css" rel="stylesheet" media="">
     <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="ism/css/my-slider.css"/>
     <script src="ism/js/ism-2.2.min.js"></script>
@@ -35,11 +35,12 @@
         </li>
     </ul>
 </div>
-<div id="Contactanos">
+<div id="Formasdepago">
     <ul>
         <li>
-            <img src="img/img/redes.png" width="75%">
-            <p>Contactanos</p>
+            <a href="Forma de Pago.html"><img src="img//img/Forma de Pago 5.PNG"></a> 
+            <br>
+            <p>Formasdepago</p>
         </li>
     </ul>
 </div>
@@ -76,76 +77,94 @@
               </aside>  
                 
 
-                <div id="caja">
-                    <p class="texto">Arte y Diseño</p>
-                    <p class="texto">Computo e Impresión</p>
-                    <p class="texto">Electronica</p>
-                    <p class="texto">Escolares</p>
-                    <p class="texto">Fiestas</p>
-                    <p class="texto">Material Didactico</p>
-                    <p class="texto">Oficina</p>
-                    <p class="texto">Papeles</p>
-                  </div>
-    
-                </li>
-            </ul>
-        </div>
+              <div id="caja">
+
+                <p class="texto"> 
+                <a href="https://www.papeleradabo.mx/Principal/ListadoArticulos.aspx?sCategoria=0036">Arte y Diseño</a>
+                </p>
+                <p class="texto">
+                <a href="https://www.papeleradabo.mx/Principal/ListadoArticulos.aspx?sCategoria=0035">Computo e Impresión></a>
+                </p>
+                <p class="texto">
+                <a href="https://www.papeleradabo.mx/Principal/ListadoArticulos.aspx?sCategoria=0034">Electronica</a>
+                </p>
+                <p class="texto">
+                <a href="https://www.papeleradabo.mx/Principal/ListadoArticulos.aspx?sCategoria=0031">Escolares</a>
+                </p>
+                <p class="texto">
+                <a href="https://www.papeleradabo.mx/Principal/ListadoArticulos.aspx?sCategoria=0033">Material Didactico</a>
+                </p>    
+                <p class="texto">
+                <a href="https://www.papeleradabo.mx/Principal/ListadoArticulos.aspx?sCategoria=0032">Oficina</a>
+                </p>
+    </div>
+
         <div id="imagenes">
         <ul>
             <li>
-                <!--Se mando a llamar la carpeta IMS para imagenes de carrucel-->
-                <div class="ism-slider" data-play_type="loop" data-interval="10000" data-image_fx="zoomrotate" data-radio_type="thumbnail" id="my-slider">
-                    <ol>
-                      <li>
-                        <img src="ism/image/slides/_u/1628229276595_783069.png">
-                      </li>
-                      <li>
-                        <img src="ism/image/slides/_u/1628229441741_355837.jpg">
-                        <div class="ism-caption ism-caption-0">Computo para la escuela</div>
-                      </li>
-                      <li>
-                        <img src="ism/image/slides/_u/1628229482634_81516.jpg">
-                        <div class="ism-caption ism-caption-0">Todo para Gamer</div>
-                      </li>
-                      <li>
-                        <img src="ism/image/slides/_u/1628229660455_86863.jpg">
-                        <div class="ism-caption ism-caption-0">Accesorios </div>
-                      </li>
-                      <li>
-                        <img src="ism/image/slides/_u/1628229620971_149410.jpg">
-                        <div class="ism-caption ism-caption-0">Escritorios</div>
-                      </li>
-                      <li>
-                        <img src="ism/image/slides/_u/1628229673420_267430.jpg">
-                        <div class="ism-caption ism-caption-0">Todo para oficina</div>
-                      </li>
-                      <li>
-                        <img src="ism/image/slides/_u/1628229694819_81865.jpg">
-                        <div class="ism-caption ism-caption-0">Todo para la escuela</div>
-                      </li>
-                      <li>
-                        <img src="ism/image/slides/_u/1628229707816_777762.jpg">
-                        <div class="ism-caption ism-caption-0">Cuadernos</div>
-                      </li>
-                      <li>
-                        <img src="ism/image/slides/_u/1628229715872_400649.jpg">
-                        <div class="ism-caption ism-caption-0">Impresoras</div>
-                      </li>
-                      <li>
-                        <img src="ism/image/slides/_u/1628229726399_83381.jpg">
-                      </li>
-                    </ol>
-                  </div>
-                  <p class="ism-badge" id="my-slider-ism-badge"><a class="ism-link" href="http://imageslidermaker.com" rel="nofollow">generated with ISM</a></p>
+                <h1 align="center">Registro a Papelería Rossette</h1>
+                Nombre Completo  <br><input type="text" name="nombreCliente" required placeholder="Nombre (s)"> <br>
+                
+                Apellido <br>
+                <input type="text" apellido="apellidosCliente"  placeholder="Apellido Paterno, Materno"> <br>
+                Genero <br>
+                Mujer<input type="radio" name="genero">
+                Hombre <input type="radio" name="genero"> <br>
+                Correo electronico <br>
+                <input type="email" name="correoCliente"  placeholder="ex:mynameis@examplet.com"><br>
+                Número Celular <br>
+                <input type="number" name="ÁreaCode" id="number"  placeholder="+52">
+                <input type="number" name="Phone Number" id="number"  placeholder="5555555555"> <br> 
+                Dirección Completa <br>
+                <input type="text" placeholder="Calle y Número"> <br>
+                <input type="text" placeholder="Colonia"> <br>
+                <input type="number" placeholder="C.P."> <br>
+                <select name="Alacaldia">
+                    <option value="1">Alvaro Obregon</option>
+                    <option value="2">Azcapotzalco</option>
+                    <option value="3">Benito Juárez</option>
+                    <option value="4">Coyoacán</option>
+                    <option value="5">Cuajimalpa</option>
+                    <option value="6">Cuauhtémoc</option>
+                    <option value="7">Gustavo A. Madero</option>
+                    <option value="8">Iztacalco</option>
+                    <option value="9">Iztapalapa</option>
+                    <option value="10">Magdalena Contreras</option>
+                    <option value="11">Miguel Hidalgo</option>
+                    <option value="12">Milpa Alta</option>
+                    <option value="13">Tláhuac</option>
+                    <option value="14">Tlalpan</option>
+                    <option value="15">Venustiano Carranza</option>
+                    <option value="16">Xochimilco</option>
+                    </select> <br>
+                <select name="País">
+                    <option value="1">Alemania</option>
+                    <option value="2">Belize</option>
+                    <option value="3">Canada</option>
+                    <option value="4">Dominica Republic</option>
+                    <option value="5">Egypt</option>
+                    <option value="6">France</option>
+                    <option value="7">Germany</option>
+                    <option value="8">Honduras</option>
+                    <option value="9">Iran</option>
+                    <option value="10">Japan</option>
+                    <option value="11">Kenya</option>
+                    <option value="12">Libería</option>
+                    <option value="13">México</option>
+                    <option value="14">Nepal</option>
+                    <option value="15">Turkish</option>
+                    <option value="16">Portugal</option>
+                    </select> <br>
+                Contraseña de acceso a tu cuenta
+                <input type="password" name="contraseña" required> <br>
+            <input class="btn1" type="submit" value="Registrar"> 
+            <input class="btn2" type="reset" value="Limpiar"> <br>
+               
+
             </li>
         </ul>
-        </div>
-
-    <div id="Envios" align="center">
         <ul>
             <li>
-                <img src="img/img/Rangos_Envios.jpg" width="45%">
-                <img src="img/img/otras_formas_pago.png" width="45%">
             </li>
         </ul>
     </div>
@@ -166,14 +185,14 @@
         <ul>
             <li>
                 <h1>Envio seguro</h1>
-                <img src="img/img/envioseguro.png" alt="120%">                
+                <a href="https://seal.godaddy.com/verifySeal?sealID=XHfcS7uwuxjfH4tybayNm0KITUlmT27zYqWWMHQAcpOUaueNcvmtuQ8jDKps"><img src="img/img/envioseguro.png"></a> 
             </li>
         </ul>
 
         <ul>
             <li>
-                <h1>Quienes somos</h1>    
-                <img src="img/img/quienes somos.png" alt="120%">            
+                <h1>Factura</h1>    
+                <a href="http://efactura.papeleradabo.mx:8080/index.php?currentPage=2"><img src="img/img/Fatura.PNG"></a>
             </li>
         </ul>
         
@@ -193,7 +212,6 @@
     </div>
     
     <!--Fin Bottom-->
-
 
 
 

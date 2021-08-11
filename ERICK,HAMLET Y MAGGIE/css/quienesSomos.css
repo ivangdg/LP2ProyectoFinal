@@ -59,7 +59,7 @@ header{
     color: salmon;
 }
 
-#Contactanos{
+#Formasdepago{
     position: absolute;
     top: 0px;
     left: 768px;
@@ -302,5 +302,14 @@ footer{
 /*------------------------*/
 /*------------------------*/
 
+.central {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
 
-
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
