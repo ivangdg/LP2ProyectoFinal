@@ -9,3 +9,12 @@ body{
     background:url(../img/img/fondo_marca_de_agua.PNG);
     background-position: top center;
 }
+
+section #imagenes {
+    position: absolute;
+    top: 2px;
+    left: 239px;
+    width: 515px;
+    height: 386px;
+    background: rosybrown;
+}

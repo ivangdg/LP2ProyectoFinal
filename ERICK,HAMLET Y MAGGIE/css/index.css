@@ -49,9 +49,9 @@ header{
 #Bienvenido ul li .micuenta img{
     position: center;
     top: 0%;
-    left: 30%;
-    width: 15%;
-    height: 40%;
+    left: 33%;
+    width: 13%;
+    height: 26%;
 }
 
 #Bienvenido .p{
@@ -119,6 +119,29 @@ section #buscar{
     width: 225px;
     height: 386px;
     background: rosybrown;
+}
+
+#caja {
+    display: flex;
+    flex-flow: column wrap;
+    text-align-last: center;
+    margin: 20px;
+}
+
+#caja {
+    display: flex;
+    flex-flow: nowrap;
+    text-align-last: normal;
+    margin: 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#buscar ul li ul li a{
+    float: left;
+    width: 67px;
+    height: 53px;
+    border-radius: 100%;
 }
 
 section #imagenes{
@@ -216,7 +239,7 @@ form .icon:after, form .submit:after  {
 
 #bottom ul li{
     float: left;
-    width: 250px;
+    width: 332px;
     height: 198px;
 }
 
@@ -227,41 +250,50 @@ form .icon:after, form .submit:after  {
     font-weight: 100;
 }
 
-#bottom ul li img{
-    position: relative;
-    top: 15px;
-    left: 15px;
-    width: 95px;
-    height: 95px;  
-    background: silver;
-    border: 4px solid white;
-}
-
 #bottom ul li ul{
     position: relative;
-    top: 11px;
-    left: 15px;
-    width: 200px;
-    height: 40px;
+    top: 22px;
+    left: 19px;
+    width: 296px;
+    height: 54px;
     background: rgb(240, 165, 165);
 }
 
 #bottom ul li ul li{
     float: left;
-    width: 35px;
-    height: 33px;
+    width: 68px;
+    height: 51px;
     border-radius: 100px;
     background: white;
-    margin: 5px;
+    margin: px;
 }
 
-#bottom ul li a{
-    color: #f33be4;
-    object-fit: cover;
-    border-radius: 20px;
+#bottom ul li ul li:first-child{
+    background: url(../img/img/facebook.PNG);
+    background-size: cover;
 }
 
+#bottom ul li ul li:nth-child(2){
+    background: url(../img/img/instagram.PNG);
+    background-size: cover;
+}
 
+#bottom ul li ul li:nth-child(3){
+    background: url(../img/img/twitter.PNG);
+    background-size: cover;
+}
+
+#bottom ul li ul li:nth-child(4){
+    background: url(../img/img/youtube.PNG);
+    background-size: cover;
+}
+
+#bottom ul li ul li a{
+    float: left;
+    width: 67px;
+    height: 53px;
+    border-radius: 100%;
+}
 /*---- Fin botoom---*/
 /*------------------------*/
 /*------------------------*/
