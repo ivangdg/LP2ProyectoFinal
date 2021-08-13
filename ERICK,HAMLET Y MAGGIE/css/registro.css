@@ -59,7 +59,7 @@ header{
     color: salmon;
 }
 
-#Contactanos{
+#Formasdepago{
     position: absolute;
     top: 0px;
     left: 768px;
@@ -147,10 +147,11 @@ section #buscar{
 section #imagenes{
     position: absolute;
     top: 0px;
-    left: 264px;
-    width: 460px;
-    height: 250px;
+    left: 233px;
+    width: 526px;
+    height: 386px;
     background: rosybrown;
+    color: salmon;
 }
 
 

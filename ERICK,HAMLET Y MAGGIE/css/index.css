@@ -59,7 +59,7 @@ header{
     color: salmon;
 }
 
-#Contactanos{
+#Formasdepago{
     position: absolute;
     top: 0px;
     left: 768px;
@@ -200,7 +200,7 @@ selection ul li p{
   
   
 }
-p.texto {
+p.Listado {
   background-color: rgb(211, 161, 161);
   border: 1px solid  ;
   margin-right: 5px;
@@ -294,6 +294,8 @@ form .icon:after, form .submit:after  {
     height: 53px;
     border-radius: 100%;
 }
+
+
 /*---- Fin botoom---*/
 /*------------------------*/
 /*------------------------*/
