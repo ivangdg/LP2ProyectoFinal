@@ -5,7 +5,7 @@
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     text-align-last: center;
-    background:radial-gradient(black, transparent);
+    background:radial-gradient(#edd8c9, transparent);
 }
 
 body{
@@ -13,4 +13,12 @@ body{
     background-position: top center;
 }
 
+h2{
+    position: relative;
+    margin: auto;
+    color: salmon;
+}
 
+div{
+    color: salmon;
+}
